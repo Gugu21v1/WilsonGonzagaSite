@@ -217,4 +217,7 @@ background-blend-mode: multiply	;
 
 }
 
-
+.pagination: {
+            el: .swiper-pagination;
+            clickable: true;
+          }

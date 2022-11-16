@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg navbar-black bg-corbrancalogo shadow shadow-3">
+    <div class="container-fluid">
+        <a class="navbar-brand ms-2" href="{{ url_for('home') }}">
+        <img src="{{ url_for('static', filename='logo.jpeg' ) }}" alt="Logo" width="80" height="60" class="d-inline-block align-text-top mb-1">
+        </a>
+        <a class="navbar-brand ms-2 mt-2" href="{{ url_for('home') }}"><h6 class="et_pb_text_0 mt-2"
+        style="font-size:30px; letter-spacing:1px; word-spacing: 9px; line-height: 100%">WILSON<br>GONZAGA</h6></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-2" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 container container-end text-end">
+                <li class="nav-item container text-end">
+                    <a class="nav-link active fontenavbar text-muted ms-5 mt-3" style="font-size:30px" aria-current="page" href="{{ url_for('home') }}">Início</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link active fontenavbar text-muted ms-4 mt-3" style="font-size:30px" href="{{ url_for('contatos') }}">Contatos</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<hr>

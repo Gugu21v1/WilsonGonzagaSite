@@ -1,0 +1,240 @@
+{% extends "base.html" %}
+
+{% block body %}
+<body>
+<div class="corfundoinicio">
+    <div class="container text-center">
+        <h1 class="et_pb_text_0">Wilson Gonzaga Advogados</h1>
+        <h4>_____________________________________________</h4>
+        <h5 class="fonteperfil mb-3 mt-4">Planejamento e Direito Previdenciário, do Trabalho e do Consumidor</h5><br>
+        <a href="{{ url_for('contatos') }}">
+            <button type="button"
+                    class="btn btn-lg btn-warning mb-5 rounded-0 et_pb_button et_pb_more_button fonteperfil spacingnovo font-face"
+                    style="font-family:Candara, Garamond; font-color:black; ">Contato
+            </button>
+        </a><br>
+    </div>
+</div>
+<div>
+</div>
+<hr>
+
+<section class="bg border-top border-bottom border-2 border-warning">
+    <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content">
+
+            <div class="swiper-slide card rounded-5">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="{{ url_for('static', filename='carrossel1.jpg') }}" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide card rounded-5">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="{{ url_for('static', filename='carrossel2.jpg') }}" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide card rounded-5">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="{{ url_for('static', filename='carrossel3.jpg') }}" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide card rounded-5">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="{{ url_for('static', filename='carrosel4.jpg') }}" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide card rounded-5">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="{{ url_for('static', filename='carrosel5.jpg') }}" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide card rounded-5">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="{{ url_for('static', filename='carrossel12.jpg') }}" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide card rounded-5">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="{{ url_for('static', filename='carrosel6.jpg') }}" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide card rounded-5">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="{{ url_for('static', filename='carrosel7.jpg') }}" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide card rounded-5">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="{{ url_for('static', filename='carrosel8.jpg') }}" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide card rounded-5">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="{{ url_for('static', filename='carrosel9.jpg') }}" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide card rounded-5">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="{{ url_for('static', filename='carrosel10.jpg') }}" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide card rounded-5">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="{{ url_for('static', filename='carrosel11.jpg') }}" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+</section>
+
+<script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          slidesPerGroup: 3,
+          loop: true,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+
+
+</script>
+
+
+<div class="cinza mt-3">
+    <div class="container text-center" style="font-weight: 100; font-family:Garamond, Candara; font-size:100px;">Sobre
+        Nós
+    </div>
+    <div class="container text-center" style="color: #bdb17d; font-weight:900; font-size:30px">────</div>
+    <div class="et_pb_with_border et_pb_module et_pb_text et_pb_text_1 et_pb_text_align_left et_pb_bg_layout_light et_had_animation">
+        <h3 class="container text-start et_pb_text_inner border-start border-5 border-danger m-5 p-2 mb-5"
+            style="font-family:Garamond;"> Fundada em 2020, logo no início da pandemia, o objetivo principal da Gonzaga
+            Advogados era ajudar as
+            pessoas de idade a pegarem sua aposentadoria da maneira mais rápida e fácil possível. Atuam na área de
+            previdência
+            há mais de 8 anos e possui inúmeros casos resolvidos.</h3><br>
+    </div>
+</div>
+<hr>
+
+<div class="container text-center mt-5">
+    <div style="line-height:120px;">
+        <div class="" style="font-size:100px; font-family:Garamond,Candara; letter-spacing:-6px;">Dr. Wilson Gonzaga
+        </div>
+        <div style="line-height:25px;">
+            <div class="text-muted" style="font-family:Garamond, Candara;">OAB: 12.345 MG</div>
+            <div class="container text-center " style="color: #bdb17d; font-weight:900; font-size:30px"><span
+                    class="align-top"> ──── </span></div>
+        </div>
+    </div>
+    <div class="row align-items-center">
+        <div class="col-8 container text-center p-5">
+            <img src="{{ url_for('static', filename='wilsin.jpg') }}" style="width: 250px;"
+                 class="mt-3 ms-2 me-5 border border-dark border-5">
+        </div>
+        <div class="col-4 border p-4 border-warning border-1">
+            <div align="justify">
+                Ex-professor substituto do CEFET - Januária. Ex-professor efetivo do Instituto Federal de Educação
+                Ciência e Tecnologia do Norte de Minas - IFNMG.
+                Pós-graduado em Criminologia pela Universidade Estadual de Montes Claros - UNIMONTES.
+                Atualização em Direito Processual Civil pela Universidade Anhanguera - LFG.
+                Examinador do concurso para admissão de professor efetivo do INFMG - 2011. <br></div>
+            <a href="https://api.whatsapp.com/send?phone=5538998203344" class="mt-4 text-center">
+                <button type="button" class="text-center btn btn-lg btn-outline-success mt-5 rounded-0 "
+                        style="font-family:Candara, Garamond; ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                         class="bi bi-whatsapp mb-1 me-2" viewBox="0 0 16 16">
+                        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                    </svg>
+                    Entrar em contato
+                </button>
+            </a>
+        </div>
+    </div>
+
+</div>
+<hr>
+
+
+<div class="imagemlugar border-top border-bottom border-dark border-3" style="font-family:Candara, Garamond; ">
+    <div class="container text-center" style="color:white">
+        <div class="row align-items-center">
+
+
+            <div class="col">
+
+            </div>
+            <div class="h3 col-center-center mb-5">
+                <div class="h1">Nossa localização:</div>
+                Atuamos na cidade de Januária - MG - porém oferecemos serviços de atendimento online, via skype.
+                Se deseja realizar um atendimento online, clique no seguinte botão. <br> <a
+                    href="{{ url_for('enviar_mensagem') }}">
+                <button class="btn m-3 btn-lg btn-warning ms-2 rounded-0 et_pb_button
+                        et_pb_more_button fonteperfil spacingnovo border-dark border-2" style="font-family:Candara, Garamond;
+                        font-color:black; ">Enviar mensagem
+                </button>
+            </a> <br>
+                Caso queira fazer uma visita ao nosso escritório, o endereço é:
+                <div> Rua Padre João Maria, 273 - Centro, Januária - MG.<br>
+                    CEP: 39480-000
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+    </div>
+</div>
+</body>
+{% endblock %}

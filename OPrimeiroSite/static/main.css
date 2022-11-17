@@ -217,7 +217,19 @@ background-blend-mode: multiply	;
 
 }
 
-.pagination: {
-            el: .swiper-pagination;
-            clickable: true;
-          }
+
+#sobre {
+    transform: translateX(150px);
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes slide {
+    from {
+        opacity: 0;
+    }
+    to {
+
+    }
+}

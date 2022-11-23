@@ -24,3 +24,6 @@ def enviar_mensagem():
 
     return render_template("enviar_mensagem.html", form=form)
 
+@app.route('/google43239c8191330b31.html')
+def contatos():
+    return render_template("google43239c8191330b31.html")

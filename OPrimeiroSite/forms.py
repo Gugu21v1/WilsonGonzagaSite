@@ -9,4 +9,3 @@ class FormularioMensagem(FlaskForm):
     telefone = StringField('Telefone para contato', validators=[DataRequired()])
     mensagem = TextAreaField('Um pouco sobre seu problema: ', validators=[DataRequired(), Length(5, 1500)])
     botao = SubmitField('Enviar')
-

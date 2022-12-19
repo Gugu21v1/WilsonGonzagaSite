@@ -21,10 +21,3 @@ def send_email(corpo, nome, oemail, telefone):
     # Login Credentials for sending the mail
     s.login(msg['From'], password)
     s.sendmail(msg['From'], [msg['To']], msg.as_string().encode('utf-8'))
-
-
-
-
-
-
-

@@ -3,10 +3,11 @@ from OPrimeiroSite import app
 from OPrimeiroSite.forms import FormularioMensagem
 from OPrimeiroSite.enviar_email import send_email
 
+
 @app.route('/')
 # serve pra criar os caminhos do site ('/Gustavo/posts')
 def home():
-    return render_template("home.html")
+    return render_template('home.html')
 
 
 @app.route('/contato')
@@ -23,4 +24,3 @@ def enviar_mensagem():
         return redirect(url_for('home'))
 
     return render_template("enviar_mensagem.html", form=form)
-

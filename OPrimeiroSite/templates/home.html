@@ -12,7 +12,7 @@
         <h5 class="fonteperfil mb-3 mt-4">Planejamento e Direito Previdenciário, do Trabalho e do Consumidor</h5><br>
         <a href="{{ url_for('contatos') }}">
             <button type="button"
-                    class="btn btn-lg btn-warning mb-5 rounded-0 et_pb_button et_pb_more_button fonteperfil spacingnovo font-face"
+                    class="btn btn-warning btn-lg mb-5 rounded-0 et_pb_button et_pb_more_button fonteperfil spacingnovo font-face"
                     style="font-family:Candara, Garamond, sans-serif; color:black; ">Contato
             </button>
         </a><br>
@@ -125,13 +125,13 @@
         </div>
     </div>
 
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next" style="color: black"></div>
+    <div class="swiper-button-prev" style="color: black"></div>
     <div class="swiper-pagination"></div>
 </section>
 
 <script>
-        var swiper = new Swiper(".mySwiper", {
+        let swiper = new Swiper(".mySwiper", {
           slidesPerView: 3,
           spaceBetween: 30,
           slidesPerGroup: 3,
@@ -148,8 +148,6 @@
         });
 
 
-
-
 </script>
 
 
@@ -160,8 +158,8 @@
     <div class="text-muted text-center"> OAB/MG 9.896</div>
     <div class="container text-center" style="color: #bdb17d; font-weight:900; font-size:30px">────</div>
     <div class="et_pb_with_border et_pb_module et_pb_text et_pb_text_1 et_pb_text_align_left et_pb_bg_layout_light et_had_animation">
-        <h3 class="et_pb_text_inner border-start border-5 border-danger m-5 p-3 mb-5" data-aos="fade-left" align="justify"
-            style="font-family:Garamond, Candara, sans-serif;">Sociedade Individual de Advocacia atuante nas regiões Norte, Noroeste e Zona
+        <h3 class="et_pb_text_inner border-start border-5 border-danger m-5 p-3 mb-5" data-aos="fade-left"
+            style="font-family:Garamond, Candara, sans-serif;text-align: justify">Sociedade Individual de Advocacia atuante nas regiões Norte, Noroeste e Zona
             da Mata mineira.
             Nossos valores são pautados na transparência e no contato com o cliente, encurtando a distância entre o
             Poder Judiciário e aqueles que muitas vezes são esquecidos pelos Poderes Públicos, os trabalhadores rurais e
@@ -273,8 +271,7 @@
             <img src="{{ url_for('static', filename='wilsin3.jpeg') }}" alt="..." style="width: 450px;"
                  class="mt-3 ms-2 me-5 border border-dark border-3 img-fluid" data-aos="fade-right">
         </div>
-        <div class="col-4 border p-4 border-warning border-1" data-aos="fade-left">
-            <div align="justify" >
+        <div class="col-4 border p-4 border-warning border-1" data-aos="fade-left" style="text-align: justify">
                 Graduado em Direito pelo Centro Universitário de Sete Lagoas - UNIFEMM, 2003.
                 Pós-graduado pela Universidade Estadual de Montes Claros- UNIMONTES, 2007.
                 Ex-professor efetivo, por concurso, do Instituto Federal de Educação, Ciência e Tecnologia do Norte de
@@ -282,7 +279,7 @@
                 Advogado inscrito nos quadros da OAB/MG desde agosto de 2004, passando por escritório de advocacia
                 voltado às causas trabalhistas entre 2004 e 2006 e, posteriormente, com atuação em Direito
                 Previdenciário a partir de 2006.
-                <br></div>
+                <br>
             <a href="https://api.whatsapp.com/send?phone=5538998203344" class="mt-4 text-center">
                 <button type="button" class="text-center btn btn-lg btn-outline-success mt-3 rounded-0 "
                         style="font-family:Candara, Garamond, sans-serif; ">

@@ -1,3 +1,7 @@
+html, body {
+	overflow-x: hidden !important;
+}
+
 .corfundobalança {
     background: #94b6c4;
 }

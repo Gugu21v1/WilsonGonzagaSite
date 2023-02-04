@@ -40,7 +40,7 @@ html, body {
 }
 
 #alinhar_botao {
-    margin-left: 25%;
+   text-align: center
 }
 
 span {
@@ -79,59 +79,66 @@ span {
     background-color: #f7f7f7;
 }
 
-button {
-  font-family: inherit;
-  font-size: 20px;
-  background: #ffc311;
-  color: white;
-  padding: 0.9em 1.8em 1em;
-  padding-left: 1.3em;
-  display: flex;
-  align-items: center;
-  border: none;
-  border-radius: 16px;
-  overflow: hidden;
-  transition: all 0.2s;
+.rounded-5 button {
+    font-family: inherit;
+    font-size: 20px;
+    background: #ffc311;
+    color: white;
+    padding: 0.9em 1.8em 1em;
+    padding-left: 1.3em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
 }
 
-button span {
-  display: block;
-  margin-left: 0.3em;
-  transition: all 0.3s ease-in-out;
+.rounded-5 button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
 }
 
-button svg {
-  display: block;
-  transform-origin: center center;
-  transition: transform 0.3s ease-in-out;
+.rounded-5 button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
 }
 
-button:hover .svg-wrapper {
-  animation: fly-1 0.6s ease-in-out infinite alternate;
+.rounded-5 button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
 }
 
-button:hover svg {
-  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+.rounded-5 button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
 }
 
-button:hover span {
-  transform: translateX(5em);
+.rounded-5 button:hover span {
+    transform: translateX(5em);
 }
 
-button:active {
-  transform: scale(0.95);
+.rounded-5 button:active {
+    transform: scale(0.95);
+}
+
+.circulo {
+	border-radius: 500px;
+	border-color: transparent;
+	height: 3em;
+	width: 3em;
+    margin-bottom: 1em;
 }
 
 @keyframes fly-1 {
-  from {
-    transform: translateY(0.1em);
-  }
+    from {
+        transform: translateY(0.1em);
+    }
 
-  to {
-    transform: translateY(-0.1em);
-  }
+    to {
+        transform: translateY(-0.1em);
+    }
 }
-
 
 
 @media (max-width: 980px)
@@ -213,7 +220,8 @@ button:active {
                 }
 
                 .swiper {
-                    width: 1520px;
+                    width: 2000px;
+
                 }
 
                 .card {
@@ -234,6 +242,7 @@ button:active {
                 section .card .image {
                     height: 100%;
                     width: 100%;
+                    min-width: 230px;
                     cursor: pointer;
 
                 }
@@ -244,12 +253,12 @@ button:active {
                     border-radius: 20px;
                     transition: all 0.4s;
                     opacity: 60%;
-
                 }
 
                 section .card .image img:hover {
-                    transform: scale(1.07);
+                    transform: scale(1.05);
                     opacity: 100%;
+                    z-index: 1000;
                 }
 
 
@@ -257,6 +266,9 @@ button:active {
                     position: absolute;
                 }
 
+                .swiper-wrapper {
+                    min-width: 750px;
+                }
 
                 .swiper-button-next, .swiper-button-prev {
                     opacity: 0.7;
@@ -271,9 +283,8 @@ button:active {
 
                 .centraliza {
                     width: 200px;
-                    margin: 200;
+                    margin: 200px;
                     height: 900px;
-                / / Se quer altura automática, é só deletar essa linha
                 }
 
                 .imagemlugar {

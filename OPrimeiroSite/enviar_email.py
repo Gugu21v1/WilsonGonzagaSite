@@ -16,7 +16,6 @@ def send_email(corpo, nome, oemail, telefone):
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(corpo_email)
 
-
     s = smtplib.SMTP('smtp.gmail.com: 587')
     s.starttls()
     # Login Credentials for sending the mail

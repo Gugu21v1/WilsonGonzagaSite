@@ -12,6 +12,11 @@
         margin: auto auto;
     }
 
+    #imagem-camila {
+        max-width: 280px;
+        margin-left: -2.5em;
+    }
+
     .letra_grossa {
         font-weight: 500;
     }

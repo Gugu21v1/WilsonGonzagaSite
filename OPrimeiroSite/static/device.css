@@ -1,0 +1,80 @@
+@media (max-width: 760px) {
+
+    #wilson {
+        font-size: 25px;
+    }
+
+    .cinza {
+        margin: auto auto;
+    }
+
+    #texto {
+        margin: auto auto;
+    }
+
+    .letra_grossa {
+        font-weight: 500;
+    }
+
+    .fonteperfil {
+        font-size: 25px;
+        color: #44494d;
+        letter-spacing: 3px;
+        line-height: 1.8em;
+    }
+
+    .card {
+        position: relative;
+        border-radius: 20px;
+        margin: auto auto;
+        scale: 0.8;
+    }
+
+    #sobre {
+        font-size: 50px;
+    }
+
+    .tamanho_letra {
+        font-size: 60px;
+        margin-top: 8px;
+        letter-spacing: -2px;
+        line-height: 70px;
+    }
+
+    .alinhar {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+
+    #ocard {
+        padding: 0;
+    }
+
+    #imagem-wilson {
+        max-width: 280px;
+    }
+
+    .obotao {
+        padding: 9px 6px;
+    }
+
+    #botao {
+        font-weight: 600;
+        font-size: 20px;
+        color: #44484b;
+        padding: 10px 10px;
+        transition: all 0.4s;
+
+    }
+
+
+    #botao:hover {
+        transform: scale(0.9);
+    }
+
+    .row .col-7 img {
+        text-align: center;
+        max-width: 260px;
+    }
+}

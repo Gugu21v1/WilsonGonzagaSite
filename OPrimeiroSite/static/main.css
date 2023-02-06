@@ -14,7 +14,39 @@ html, body {
     font-family: 'Prata', Georgia, "Times New Roman", serif;
     font-size: 60px;
     line-height: 1.6em;
-    font-weight: 100;
+    font-weight: 400;
+    color: #44494d;
+}
+
+.letra_grossa {
+    font-weight: 500;
+    font-size: 29px;
+}
+
+#botao {
+    font-weight: 700;
+    color: #44484b;
+    padding: 15px 30px;
+    transition: all 0.4s;
+
+}
+
+.navbar-toggler {
+    --bs-navbar-toggler-font-size: 2em;
+}
+
+#botao:hover {
+    transform: scale(0.9);
+}
+
+#texto {
+    margin: auto auto;
+    margin-right: 4em;
+}
+
+
+obotao {
+    padding: 90px 990px;
 }
 
 .et_pb_text_2 {
@@ -40,7 +72,7 @@ html, body {
 }
 
 #alinhar_botao {
-   text-align: center
+    text-align: center
 }
 
 span {
@@ -48,7 +80,8 @@ span {
 }
 
 .fonteperfil {
-    font-size: 16px !important;
+    font-size: 25px;
+    color: #44494d;
     letter-spacing: 3px;
     line-height: 1.8em;
 }
@@ -75,8 +108,18 @@ span {
     color: #8f302b;
 }
 
+.tamanho_letra {
+    font-size: 100px;
+    letter-spacing: -4px;
+}
+
 .cinza {
     background-color: #f7f7f7;
+}
+
+#imagem-wilson {
+    width: 450px;
+    margin-right: 50px;
 }
 
 .rounded-5 button {
@@ -98,6 +141,10 @@ span {
     display: block;
     margin-left: 0.3em;
     transition: all 0.3s ease-in-out;
+}
+
+.row .card {
+    margin: 33px auto;
 }
 
 .rounded-5 button svg {
@@ -123,10 +170,10 @@ span {
 }
 
 .circulo {
-	border-radius: 500px;
-	border-color: transparent;
-	height: 3em;
-	width: 3em;
+    border-radius: 500px;
+    border-color: transparent;
+    height: 3em;
+    width: 3em;
     margin-bottom: 1em;
 }
 
@@ -174,7 +221,6 @@ span {
                     font-family: 'Prata', Georgia, "Times New Roman", serif;
                     font-size: 16px;
                     letter-spacing: 1px;
-                    line-height: 1.8em;
                     border-color: #313e47 #313e47 #313e47 #03043f;
                     border-left-width: 10px;
                     padding-left: 35px !important;
@@ -244,7 +290,6 @@ span {
                     width: 100%;
                     min-width: 230px;
                     cursor: pointer;
-
                 }
 
                 section .card .image img {
@@ -298,7 +343,6 @@ span {
                     background-blend-mode: multiply;
 
                 }
-
 
                 #sobre {
                     transform: translateX(150px);

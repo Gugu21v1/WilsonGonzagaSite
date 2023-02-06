@@ -10,9 +10,9 @@ def send_email(corpo, nome, oemail, telefone):
 
     msg = email.message.Message()
     msg['Subject'] = "Cliente do site"
-    msg['From'] = 'luizgamerbr047@gmail.com'
-    msg['To'] = 'luizgamerbr047@gmail.com'
-    password = 'dqkjtiaskgjrmizb'
+    msg['From'] = 'wilsongonzagaclientes@gmail.com'
+    msg['To'] = 'doutor.aposentadoria.mg@gmail.com'
+    password = 'czyehtydylsyhsfd'
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(corpo_email)
 

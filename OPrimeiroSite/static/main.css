@@ -11,7 +11,7 @@ html, body {
 }
 
 .et_pb_text_0 {
-    font-family: 'Prata', Georgia, "Times New Roman", serif;
+    font-family: Arial, serif;
     font-size: 60px;
     line-height: 1.6em;
     font-weight: 400;
@@ -71,7 +71,7 @@ obotao {
     color: #081744 !important;
 }
 
-#alinhar_botao {
+.alinhar_botao {
     text-align: center
 }
 
@@ -123,6 +123,16 @@ span {
 }
 
 #imagem-wilson {
+    width: 450px;
+    margin-right: 50px;
+}
+
+#imagem-carla {
+    width: 450px;
+    margin-right: 50px;
+}
+
+#imagem-daniela {
     width: 450px;
     margin-right: 50px;
 }
@@ -209,7 +219,7 @@ span {
 
         @media only screen and (max-width: 767px)
             .et_pb_text_1 {
-                font-size: 16px;
+                font-size: 30px;
                 border-left-width: 10px;
                 border-left-color: #03043f;
             }
@@ -223,7 +233,7 @@ span {
 
                 .et_pb_text_1 {
                     line-height: 1.8em;
-                    font-family: 'Prata', Georgia, "Times New Roman", serif;
+                    font-family: Roboto, serif;
                     font-size: 16px;
                     letter-spacing: 1px;
                     border-color: #313e47 #313e47 #313e47 #03043f;

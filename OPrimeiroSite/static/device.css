@@ -14,11 +14,15 @@
 
     #imagem-camila {
         max-width: 280px;
-        margin-left: -2.5em;
+        margin-left: -2em;
     }
 
     .letra_grossa {
         font-weight: 500;
+    }
+
+    .letra-menor {
+        font-size: 17px;
     }
 
     .fonteperfil {
@@ -59,6 +63,16 @@
     #imagem-wilson {
         max-width: 280px;
         margin-left: -1em;
+    }
+
+    #imagem-carla {
+        max-width: 280px;
+        margin-left: -1em;
+    }
+
+    #imagem-daniela {
+        width: 280px;
+        margin-left: -1.3em;
     }
 
     .alinhar-responsivo {

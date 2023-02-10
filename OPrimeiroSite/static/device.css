@@ -43,6 +43,11 @@
         font-size: 50px;
     }
 
+    .text-title {
+        font-size: 20px;
+        color: #44494d;
+    }
+
     .tamanho_letra {
         font-size: 60px;
         margin-top: 8px;
@@ -54,6 +59,12 @@
         margin-left: auto;
         margin-right: auto;
         display: flex;
+    }
+
+    .responsividade {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
     }
 
     #ocard {

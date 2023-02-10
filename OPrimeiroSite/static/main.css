@@ -6,6 +6,12 @@ html, body {
     background: #94b6c4;
 }
 
+.my-container {
+    display: flex;
+    flex: 1 1 auto;
+    width: 100%;
+}
+
 .corfundoinicio {
     background: #C0C0C0;
 }
@@ -203,6 +209,42 @@ span {
 }
 
 
+.text-title {
+    font-size: 30px;
+    font-family: Roboto, serif;
+    color: #44494d;
+}
+
+.my-button {
+    padding: 10px 40px;
+    background: #a63c3f;
+    border: 3px solid grey;
+    font-family: 'Roboto Light', sans-serif;
+    border-radius: 40px;
+    transition: ease 0.4s;
+}
+
+.my-button:hover {
+    scale: 1.2;
+    background: #ddb953;
+}
+
+.border-video {
+    border: 2px solid #C0C0C0;
+}
+
+.bordas-coloridas {
+    border-top: 1px solid #a63c3f;
+    border-bottom: 1px solid #ddb953;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    min-width: 230px;
+}
+
+
 @media (max-width: 980px)
     .et_pb_row .et_pb_column .et_pb_module.et-last-child, .et_pb_row .et_pb_column .et_pb_module:last-child, .et_section_specialty .et_pb_row .et_pb_column .et_pb_module.et-last-child, .et_section_specialty .et_pb_row .et_pb_column .et_pb_module:last-child {
         margin-bottom: 0;
@@ -365,6 +407,7 @@ span {
                     animation-duration: 2s;
                     animation-fill-mode: forwards;
                 }
+
 
                 @keyframes slide {
                     from {

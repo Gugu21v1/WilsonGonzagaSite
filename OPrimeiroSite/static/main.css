@@ -1,10 +1,27 @@
 html, body {
     overflow-x: hidden !important;
+    background-color: white;
 }
 
 .corfundobalança {
     background: #94b6c4;
 }
+
+.linha:after {
+    Content: "";
+    width: 30%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 1px;
+    background: black;
+}
+
+#card-daniela {
+    height: 450px;
+}
+
 
 .my-container {
     display: flex;
@@ -109,6 +126,7 @@ span {
 .vermelho {
     background-color: #8f302b;
 }
+
 
 .vermelho2 {
     color: #8f302b;

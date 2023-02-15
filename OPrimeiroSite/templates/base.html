@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description"
-          content="Wilson Gonzaga Advogados, advogado previdenciário em Januária e região com atendimento via plataformas digitais para o Brasil todo! ">
+          content="Wilson Gonzaga Advogados, advogado previdenciário em Januária e região com atendimento via plataformas digitais para todo o Brasil! ">
     <meta name="keywords"
-          content="Advogado Advogado previdenciário Januária e região com atendimento via Skype para o Brasil todo! Bom Muito bom barato atendimento online Brasil todo Montes Claros Januária Bocaiuva região pessoas de idade velhos idosos Wilson Gonzaga advogado">
+          content="Advogado Advogado previdenciário Januária e região com atendimento via Online para o Brasil todo! Bom Muito bom barato atendimento online Brasil todo Montes Claros Januária Bocaiuva região pessoas de idade velhos idosos Wilson Gonzaga advogado">
     <title>Wilson Gonzaga Neto</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='icone.png') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='device.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,6 +25,20 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
             integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
             crossorigin="anonymous"></script>
+    <!-- Google tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NWS3QH6JHK">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-NWS3QH6JHK');
+    </script>
 
     {% block head %}
     {% endblock %}

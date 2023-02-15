@@ -6,12 +6,12 @@
 <div class="corfundoinicio">
     <div class="container text-center">
         <h1 class="et_pb_text_0" id="sobre">Wilson Gonzaga Advocacia Previdenciária</h1>
-        <h4>____________________________________________</h4>
+        <h4 class="linha text-center"></h4>
         <h4 class="fonteperfil mb-3 mt-4">Advocacia contenciosa e consultiva em Direito Previdenciário</h4><br>
-        <a href="{{ url_for('contatos') }}">
+        <a href="https://api.whatsapp.com/send?phone=5538998203344">
             <button type="button" id="botao"
-                    class="btn btn-warning btn-lg mb-5 rounded-1 border-dark mt-4 et_pb_button et_pb_more_button fonteperfil spacingnovo font-face"
-                    style="font-family:Candara, Garamond, sans-serif;"> FALE CONOSCO
+                    class="btn verde-botao btn-lg mb-5 rounded-3 shadow-lg border-dark mt-4 fonteperfil spacingnovo font-face"
+                    style="font-family:Candara, Garamond, sans-serif; background-color: #0ab730; color: #faf7f7"> ENTRE EM CONTATO PELO WHATSAPP
             </button>
         </a><br>
     </div>
@@ -36,7 +36,6 @@
                 </button>
             </a></h2>
         </div>
-
         <div class="col-12 col-lg-7">
             <div class="mt-4 d-grid justify-content-center p-2 border-warning border-end mb-4 me-3 border-4">
                 <video class="rounded-5 border-video" src="../static/wilsinpropaganda.mp4" type="video/mp4"
@@ -47,8 +46,6 @@
         </div>
     </div>
 </div>
-
-
 <hr>
 <section class="bg border-top border-bottom border-2 border-warning">
     <div class="swiper mySwiper container">
@@ -159,7 +156,7 @@
 </section>
 
 <script>
-    var largura = window.screen.width;
+    let largura = window.screen.width;
     if (largura <= 800) {
         let swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
@@ -197,7 +194,6 @@
 
 
 </script>
-
 
 <div class="cinza mt-3 border-top border-bottom border-dark">
     <div class="container text-center mt-3 tamanho_letra"
@@ -283,7 +279,7 @@
                         <a href="#camila" class="btn btn-warning border border-dark">Ver Mais</a>
                     </div>
                 </div>
-                <div class="col-2 card rounded-4 p-0 border border-dark" style="width: 18rem; height: 450px">
+                <div id="card-daniela" class="col-2 card rounded-4 p-0 border border-dark" style="width: 18rem;">
                     <img src="{{ url_for('static', filename='daniela.png') }}" style="scale: 1;height: 52%"
                          class="card-img-top border border rounded-4 border border-dark"
                          alt="...">
@@ -334,7 +330,7 @@
             <br>
             <a href="https://api.whatsapp.com/send?phone=5538998203344" style="text-decoration: none">
                 <button type="button" class="btn btn-lg btn-outline-success mt-3 rounded-3"
-                        style="font-family:Candara, Garamond, sans-serif;"> Entrar em contato
+                        style="font-family:Candara, Garamond, sans-serif;"> Entre em contato
                 </button>
             </a>
         </div>
@@ -366,7 +362,7 @@
             partir do ano de 2019, além do Direito do Trabalho, passou a atuar na área Previdenciária.<br>
             <a href="https://api.whatsapp.com/send?phone=5538998203344" style="text-decoration: none">
                 <button type="button" class="btn btn-lg btn-outline-success mt-3 rounded-3"
-                        style="font-family:Candara, Garamond, sans-serif;"> Entrar em contato
+                        style="font-family:Candara, Garamond, sans-serif;"> Entre em contato
                 </button>
             </a>
         </div>
@@ -397,7 +393,7 @@
             <a href="https://api.whatsapp.com/send?phone=5538998203344" style="text-decoration: none">
                 <button type="button" class="btn btn-lg btn-outline-success mt-3 rounded-3"
                         style="font-family:Candara, Garamond, sans-serif; text-align: center
-"> Entrar em contato
+"> Entre em contato
                 </button>
             </a>
         </div>
@@ -427,7 +423,7 @@
             <br>
             <a href="https://api.whatsapp.com/send?phone=5538998203344" style="text-decoration: none">
                 <button type="button" class="btn btn-lg btn-outline-success mt-3 rounded-3"
-                        style="font-family:Candara, Garamond, sans-serif;"> Entrar em contato
+                        style="font-family:Candara, Garamond, sans-serif;"> Entre em contato
                 </button>
             </a>
         </div>
@@ -514,7 +510,6 @@
         duration: 2000,
     });
 </script>
-</div>
 </body>
 {% endblock %}
 
